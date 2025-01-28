@@ -11,4 +11,4 @@ class MyClassPage_Task19 extends Component {
     }
 }
 
-export default MyClassPage
+export default MyClassPage_Task19
