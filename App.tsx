@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 
 import Task16 from './Tasks/Task16';
 import Task17 from './Tasks/Task17';
@@ -12,6 +11,7 @@ import Task22 from './Tasks/Task22';
 import Task23 from './Tasks/Task23';
 import Task24 from './Tasks/Task24';
 import Task25 from './Tasks/Task25';
+import Task26 from './Tasks/Task26';
 
 
 export default function App() {
@@ -25,7 +25,8 @@ export default function App() {
         //<Task22></Task22>
         //<Task23></Task23>
         //<Task24></Task24>
-        <Task25></Task25>
+        //<Task25></Task25>
+        <Task26></Task26>
     );
 }
 
