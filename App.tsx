@@ -20,7 +20,7 @@ import Task29 from './Tasks/Task29';
 import Task30 from './Tasks/Task30';
 import Task31 from './Tasks/Task31';
 
-import Task39 from './Tasks/Task39';
+import Task40 from './Tasks/Task40';
 
 const App = () => {
     return (
@@ -40,7 +40,7 @@ const App = () => {
         //<Task29></Task29>
         //<Task30></Task30>
         //<Task31></Task31>
-        <Provider store={store}> <Task39></Task39> </Provider>
+        <Provider store={store}> <Task40></Task40> </Provider>
 
     )
 }
