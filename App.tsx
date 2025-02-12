@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 
 import Task16 from './Tasks/Task16';
 import Task17 from './Tasks/Task17';
@@ -18,8 +20,9 @@ import Task29 from './Tasks/Task29';
 import Task30 from './Tasks/Task30';
 import Task31 from './Tasks/Task31';
 
+import Task39 from './Tasks/Task39';
 
-export default function App() {
+const App = () => {
     return (
         //<Task16></Task16>
         //<Task17></Task17>
@@ -36,10 +39,14 @@ export default function App() {
         //<Task28></Task28>
         //<Task29></Task29>
         //<Task30></Task30>
-        <Task31></Task31>
+        //<Task31></Task31>
+        <Provider store={store}> <Task39></Task39> </Provider>
 
     )
 }
+
+
+export default App;
 
 
 
